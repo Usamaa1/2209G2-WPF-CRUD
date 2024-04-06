@@ -1,0 +1,16 @@
+﻿<Window x:Class="_220G2_wpf.DeleteConfirmation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_220G2_wpf"
+        mc:Ignorable="d"
+        Title="DeleteConfirmation" Height="200" Width="350">
+    <Grid>
+        <Button x:Name="yes" Content="Yes" HorizontalAlignment="Left" Margin="48,129,0,0" VerticalAlignment="Top" Width="54" Click="yes_Click"/>
+        <Button Content="No" HorizontalAlignment="Left" Margin="252,129,0,0" VerticalAlignment="Top" Width="49" Click="Button_Click"/>
+        <Label Content="Do you want to delete this item?" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="deleteId" Content="Label" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Foreground="White"/>
+
+    </Grid>
+</Window>

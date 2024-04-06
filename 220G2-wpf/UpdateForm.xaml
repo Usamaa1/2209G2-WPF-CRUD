@@ -1,0 +1,21 @@
+﻿<Window x:Class="_220G2_wpf.UpdateForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_220G2_wpf"
+        mc:Ignorable="d"
+        Title="UpdateForm" Height="450" Width="800">
+    <Grid>
+        <Label Content="Product Name" HorizontalAlignment="Left" Margin="144,124,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Product Price" HorizontalAlignment="Left" Margin="155,180,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Barcode" HorizontalAlignment="Left" Margin="200,242,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="uProdName" HorizontalAlignment="Left" Margin="294,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="28" FontSize="20"/>
+        <TextBox x:Name="uProdPrice" HorizontalAlignment="Left" Margin="294,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="28" FontSize="20"/>
+        <TextBox x:Name="uBarcode" HorizontalAlignment="Left" Margin="294,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" Height="28" FontSize="20"/>
+        <Button x:Name="updateBtn" Content="Update" HorizontalAlignment="Left" Margin="241,318,0,0" VerticalAlignment="Top" FontSize="20" Height="44" Width="105" Click="updateBtn_Click"/>
+        <Label x:Name="uIdLbl" Content="" HorizontalAlignment="Left" Margin="294,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Product Id" HorizontalAlignment="Left" Margin="144,77,0,0" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</Window>
